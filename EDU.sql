@@ -3,16 +3,18 @@ CREATE TABLE edu (
 	country VARCHAR,
 	c_codes VARCHAR,
 	cal_year INT,
-	GNP DECIMAL,
-	Population BIGINT,
-	Edu_prime DECIMAL
+	gnp DECIMAL,
+	population BIGINT,
+	edu_prime DECIMAL
 );
+SELECT * FROM edu
 
--- drop table HDI
-CREATE TABLE HDI(
-	Country VARCHAR,
-	HDI_Rank_2018 INT,
+
+-- drop table hdi
+CREATE TABLE hdi(
+	country VARCHAR,
+	hdi_rank_2018 INT,
 	cal_year INT,
-	HDI DECIMAL
+	hdi DECIMAL
 );
-
+SELECT * FROM hdi

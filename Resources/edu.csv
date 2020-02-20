@@ -1,4 +1,4 @@
-country,c_codes,cal_year,GNP,Population,Edu_prime,Edu_second,Edu_post_second,Edu_lower_second,Unemp
+country,c_codes,cal_year,gnp,population,edu_prime,edu_second,edu_post_second,edu_lower_second,unemp
 ARAB WORLD,,2017,16997.50354,414491886,,,,,
 ARAB WORLD,,2016,16794.06495,406452690,83.91194916,,,,
 ARAB WORLD,,2015,16366.5964,398304960,84.7203064,,,,
