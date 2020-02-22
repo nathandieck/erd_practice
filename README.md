@@ -1,3 +1,28 @@
+## Setup
+
+The Jupyter Notebook requires the following to run:
+
+* A 'resources' folder containing the datasets:
+  * human_development_index.csv
+  * edu.csv
+  * countries_geo.csv
+  * continent.csv
+* A file in the root directory called 'login.py' with your Postgres login and password formatted as follows:
+
+```
+username = "your_username"
+password = "your_password"
+```
+
+With your system properly configured, 
+
+* Run "Project_2_Master.sql" to configure your Postgres database for the data. 
+* Run "Project_2_Master.ipynb" to collect and format the data. 
+* Enjoy.
+
+***
+
+
 # Guidelines for ETL Project
 
 This document contains guidelines, requirements, and suggestions for Project 1.
